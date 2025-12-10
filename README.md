@@ -14,6 +14,31 @@ This is a **learning** repository. You will see that the `github-learning-lab` b
 
 We hope you are excited to get started! Head over to the take your first steps toward a :sparkles: Open Source program for your company.
 
+## Hospital Management System
+
+This repository now contains a simple, in-memory hospital management system that models role-based access control across key
+units such as Records, Revenue, Accounts, Nursing, Wards, Maternity, Eye, Adolescent Reproductive Health, Mental Health,
+Family Planning, Laboratory, Pharmacy, Dispensary, and Doctors/Prescribers.
+
+### Features
+- Role-aware permissions for administrative and clinical units
+- Patient registration and visit tracking
+- Service and medication capture with unit ownership
+- Invoice creation and payment recording with revenue summaries by unit
+
+### Quick start
+Run the demonstration script to see a complete workflow:
+
+```bash
+python -m hospital_management.demo
+```
+
+Run automated tests with:
+
+```bash
+python -m pytest
+```
+
 ## License
 
 This repository is licensed under [CC-BY-4.0](../LICENSE) (c) 2019 GitHub, Inc.
